@@ -9,8 +9,8 @@ RUN npm install
 # copy source code (will ignore node_modules thanks to .dockerignore)
 COPY . . 
 # Set env variables 
-# ENV PORT=4000 
+ENV PORT=4000 
 # make port available outside docker container
-# EXPOSE 4000 
+EXPOSE 4000 
 # command to start application
 CMD ["npm","start"]
