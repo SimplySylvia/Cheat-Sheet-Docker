@@ -1,6 +1,6 @@
 # 🐳 Docker Command Cheat Sheet
 
-With docker installed, here are some common commands you will use. I have also provided some example code to check out.
+With docker [installed](https://docs.docker.com/get-docker/), here are some common commands you will use. I have also provided some example code to check out.
 
 ### Check available containers
 
