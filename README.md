@@ -105,6 +105,12 @@ docker exec [container name] [command to run]
 docker exec myContainer cat src/index.js
 ```
 
+Want to access the bash terminal inside the container?
+
+```bash
+docker exec -it myContainer /bin/bash
+```
+
 ### Docker Compose
 
 If you setup a docker-compose yaml file this will make things a lot easier as you will not need to run the above commands and allows you to define the commands for multiple containers in the same go.
