@@ -1,0 +1,14 @@
+{
+  "name": "docker_example",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "DaltonHart <daltonvaren@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module"
+}
