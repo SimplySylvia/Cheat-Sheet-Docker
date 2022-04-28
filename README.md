@@ -42,7 +42,7 @@ docker run -d -p [local port]:[container port] [imageID]
 > Example
 
 ```bash
-docker run -d --name myContainer -p 7000:4000 446dbae429b7
+docker run -d --name myContainer -p 4000:4000 446dbae429b7
 ```
 
 ### Stop Container
@@ -88,7 +88,7 @@ docker volumn create shared-stuff
 ### Use a Volumne
 
 ```bash
-docker run -d --name myContainer --mount source=shared-stuff,target=/stuff -p 3000:4000 446dbae429b7
+docker run -d --name myContainer --mount source=shared-stuff,target=/stuff -p 4000:4000 446dbae429b7
 ```
 
 ### Execute Commands Inside the Docker Container
@@ -123,6 +123,6 @@ docker-compose up --scale [service]=[amount]
 
 With yaml file to spin down
 
-```yaml
+```bash
 docker-compose down
 ```
